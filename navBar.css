@@ -1,0 +1,67 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #228B22;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+/* 1. Nav wrapper */
+.navbar {
+    background-color: #F0FFF0;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  
+  /* 2. List reset + flex layout */
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  /* 3. Link styling */
+  .nav-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  
+  /* 4. Hover/focus state */
+  .nav-link:hover,
+  .nav-link:focus {
+    background-color: #228B22;
+    color: #f0f0f0;
+  }
+  
+  .home-style{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: start;
+    font-size: 1rem;
+}
+
+iframe[seamless] {
+    border: none;
+}

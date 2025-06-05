@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navBar.css">
+
+    
+    <title>Kern County Overview</title>
+    <style>
+      /* Reset and base styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      /* Header styles */
+      header {
+        background-color: #228B22	;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      /* Navigation styles */
+      nav.navbar {
+        background-color: #C1E1C1;
+      }
+      nav.navbar ul.nav-list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+      }
+      nav.navbar ul.nav-list li {
+        margin: 0 15px;
+      }
+      nav.navbar ul.nav-list li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+      }
+      nav.navbar ul.nav-list li a:hover {
+        background-color: #228B22;
+        border-radius: 5px;
+      }
+      /* Main content styles */
+      .home-style {
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: auto;
+        background-color: #fff;
+      }
+      .home-style h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .home-style p {
+        margin-bottom: 20px;
+      }
+      .industries {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      .industry-card {
+        background-color: #e6f2ff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        width: 280px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+      }
+      
+      .industry-card h3 {
+        margin-bottom: 10px;
+        color: #228B22;
+      }
+      .industry-card p {
+        font-size: 0.95em;
+      }
+
+      .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px;
+    }
+    .industry-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 20px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.2s;
+      text-decoration: none;
+      color: #333;
+    }
+    .industry-card:hover {
+      transform: scale(1.05);
+    }
+    .industry-card img {
+      width: 100%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+    .industry-card h3 {
+      padding: 20px 0;
+      margin: 0;
+    }
+    .industries .industry-card:hover {
+  transform: none !important;
+}
+      /* Footer styles */
+      footer {
+        background-color: #228B22;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+      }
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .industries {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+  
+    <header>
+      <h1>Kern County</h1>
+    </header>
+  
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Project Overview</a></li>
+        <li><a href="#">Industries</a></li>
+        <li><a href="#">Our Team</a></li>
+      </ul>
+    </nav>
+  
+    <div class="home-style">
+      <h2>Welcome to Kern County</h2>
+      <p>
+        Located at the crossroads of California’s economy, Kern County is a powerhouse of agriculture, energy, and innovation. From fueling the state with oil, wind, and solar power to feeding the nation with world-class produce, Kern’s industries and communities drive progress. Explore a region where economic opportunity meets natural beauty — and where California’s future is already taking shape.
+      </p>
+  
+      <h2>Key Industries</h2>
+      <div class="industries">
+        <div class="industry-card">
+          <h3>Agriculture</h3>
+          <p>
+            Kern County is one of the top agricultural producers in the United States, thanks to its fertile Central Valley location and year-round growing conditions. The region leads in crops like almonds, grapes, citrus, carrots, and dairy, supporting a robust network of farmers, packers, and food processors.
+          </p>
+        </div>
+        <div class="industry-card">
+          <h3>Tourism</h3>
+          <p>
+            Kern’s natural beauty and rugged landscapes make it a destination for outdoor adventure and cultural exploration. Visitors can hike in the Sierra Nevada foothills, camp at Lake Isabella, or whitewater raft along the Kern River.
+          </p>
+        </div>
+        <div class="industry-card">
+          <h3>Energy</h3>
+          <p>
+            As California’s leading county for oil and natural gas production, Kern has long been at the center of the state’s energy economy. Today, it’s also a fast-growing hub for solar and wind energy, making it one of the few places in the country where fossil fuels and renewables operate side by side.
+          </p>
+        </div>
+        <div class="industry-card">
+          <h3>Healthcare</h3>
+          <p>
+            Kern County’s healthcare system is rapidly expanding to meet the needs of its growing and diverse population. Bakersfield is home to major hospitals and specialty care centers, while rural communities are supported by an expanding network of clinics.
+          </p>
+        </div>
+      </div>
+    </div>
+      <br>
+      <br>
+      <div class = home-style>
+        <h2>Project Explanation + Overarching Analysis</h2>
+        <p> The goal of our project was to present an answer to the question “Why do business in Kern?”
+            We chose to focus on Kern’s propriety for new business using industry-specific data analysis. 
+            We’ve divided Kern County into Census‐tract blocks and overlaid location‐based industry markers to visualize how 
+            each sector is distributed across the region. By mapping facility location directly onto these blocks, we can 
+            pinpoint where specific industries cluster or where gaps exist. We then try to understand each block with demographic and socioeconomic
+            data—like income, age, and education levels—to understand the local context driving existing patterns. </p>
+        <iframe src="kern_all_layers_map (1).html" width="100%" height="500px"></iframe>
+      </div>
+      <br>
+      <br>
+     <div class = home-style>
+        <h2>Industries</h2>
+
+        <div class="container">
+          <a href="agriculture.html" class="industry-card">
+            <img src="farming.png" alt="Value-Added Agriculture">
+            <h3>Value-Added Agriculture</h3>
+          </a>
+          <a href="energy.html" class="industry-card">
+            <img src="energy.png" alt="Energy">
+            <h3>Energy</h3>
+          </a>
+          <a href="tourism.html" class="industry-card">
+            <img src="tourism.png" alt="Tourism">
+            <h3>Tourism</h3>
+          </a>
+          <a href="healthcare.html" class="industry-card">
+            <img src="heart.png" alt="Healthcare Services">
+            <h3>Healthcare Services</h3>
+          </a>
+          <!-- Add more industry cards as needed -->
+        </div>
+
+        <div class = home-style>
+          <h2>Team</h2>
+          <p> Group 2</p>
+        
+          </div>
+</body>
+</html>
