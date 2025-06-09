@@ -1,5 +1,5 @@
 # Kern County Economic Overview Website
-
+Link: https://leebugger.github.io/group2_KernCounty/
 This project was developed as part of our Data Science capstone project at Stanford University, focused on regional economic analysis using geospatial data. 
 The goal of the project is to communicate Kern County's economic landscape in a clear, engaging, and accessible way using front-end web technologies to hopefully
 pair with their existing dashboard.
